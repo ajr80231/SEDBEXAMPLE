@@ -3,9 +3,9 @@ import java.util.*;
 
 public class JavaToMYSQL {
     // JDBC URL, userName, and password for MySQL SERVER
-    private static final String url = "jdbc:mysql://genghiscinemas.me:3306/SE_Example?useSSL=false";
-    private static final String user = "genghis";
-    private static final String password = "SE2018uga!";
+    private static final String url = "jdbc:mysql://exampleDB:3306/SE_Example?useSSL=false";
+    private static final String user = "*********";
+    private static final String password = "********!";
 
     private static Connection con;
     private static Statement stmt;
